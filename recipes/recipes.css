@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=IBM+Plex+Sans:wght@500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Gabriela&family=IBM+Plex+Sans:wght@500&family=Poppins:wght@300&display=swap');
+
+/**Universal Styles**/
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background: #ffffff;
+    margin: 0;
+}
+
+
+/** --> Main (Home) Page**/
+
+/**Header Section**/
+
+header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 3px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.main-heading{
+    color: #0e3478;
+    font-size: 3rem;
+    font-family: 'Chelsea Market', cursive;
+    font-weight: 500;
+    text-align: center;
+    margin:0;
+    padding: 1rem;
+}
+
+/** --> Recipes (Product) Pages**/
+
+/**Header Section**/
+
+#article-heading{
+    font-family:'IBM Plex Sans', sans-serif;
+    color: #0e3478;
+    font-weight: 550;
+    font-size: 2.5rem;
+    letter-spacing: -0.02em;
+    margin: 0 0 3.5rem 0;
+}
+
+.recipe-description{
+    color: #404040;
+    font-size: 1.3rem;
+    line-height: 1.5555555556;
+    letter-spacing: -0.005em;
+}
+
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    background: #f0efee;
+}
+
+.intro-text{
+    margin: 0;
+    padding: 5.5rem;
+    position: relative;
+}
+
+.img-recipe{
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 450px;
+    width: 700px;
+}
+
+button{
+    cursor: pointer;
+    min-height: 50px;
+    line-height: normal;
+    background-color: #06b05b;
+    border: 2px solid #06b05b;
+    text-align: center;
+    border-radius: 35px;
+    padding: 12px 25px;
+    margin: 2.5rem 0.9rem 0 0;
+    -webkit-appearance: none;
+}
+
+button a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+/**Main Section**/
+
+main{
+    margin: 0 1em 0 rem;
+    padding: 1rem;
+}
+
+.page-content{
+    margin: 0;
+    /**padding: 3.5rem;**/
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    position: relative;
+}
+
+h2{
+    color: #06b05b;
+    font-size: 2.2rem;
+    font-weight: 500;
+    /**margin-bottom: 2.5rem;**/
+}
+
+h3{
+    color: #404040;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 3rem 0 1.5rem 0;
+}
+
+p,  ol, ul {
+    color: #404040;
+    font-size: 1.2rem;
+    line-height: 1.5555555556;
+    margin: 0.625rem 0 0.625rem 0;
+}
+
+.faqs{
+    margin: 2rem 0 4rem 0;
+}
+
+.fa-angles-right{
+    color: #06b05b;
+}
+
+.sub-heading{
+    color: #0e3478;
+    margin: 0;
+    padding-bottom: 1.2rem;
+}
+
+.ingredients-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 40px;
+    background: #abb8c3;
+    padding: 3rem 4.3rem 3rem 4.3rem;
+    margin: 2.5rem 0 2.5rem 0;
+    border-radius: 35px;
+}
+
+.cake-ingredients, .filling-ingredients, .other-ingredients{
+    background: #ffffff;
+    padding: 3rem;
+}
+
+.small-image-banner{
+    margin: 0 0 0 2rem;
+    height: 444px;
+    width: auto;
+    border-radius: 5%;
+}
+
+/** Footer **/
+
+footer{
+    background: #0e3478;
+    padding: 2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.footer-text{
+    color: #ffffff;
+}
+
+.external-link{
+    color: #e73568;;
+}
+
+/** pseudo elements **/
+
+
+button:hover{
+    background: #ffffff;
+}
+
+button a:hover{
+    color: #06b05b;
+}
+
+.small-image-banner:hover{
+    position: relative;
+    top: -6px;
+}

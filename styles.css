@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=IBM+Plex+Sans:wght@500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Gabriela&family=IBM+Plex+Sans:wght@500&family=Poppins:wght@300&display=swap');
+
+/**Universal Styles**/
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background: #ffffff;
+    margin: 0;
+}
+
+
+/** --> Main (Home) Page**/
+
+/**Header Section**/
+
+header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 3px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.main-heading{
+    color: #0e3478;
+    font-size: 3.5rem;
+    font-family: 'Chelsea Market', cursive;
+    font-weight: 500;
+    text-align: center;
+    margin:0;
+    padding: 0.7rem;
+}
+
+/**Main Content**/
+
+section{
+    margin: 2.5em;
+    padding: 2.5rem;
+    background-color: #f1f5ec;
+    border-radius: 20px;
+}
+
+.cta-title{
+    font-family:'IBM Plex Sans', sans-serif;
+    color: #0e3478;
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: -0.02em;
+    margin: 0 0 30px 0;
+}
+
+p{
+    color: #404040;
+    font-size: 1.2rem;
+    line-height: 1.5555555556;
+    letter-spacing: -0.005em;
+}
+
+button{
+    cursor: pointer;
+    min-height: 50px;
+    line-height: normal;
+    background-color: #06b05b;
+    border: 2px solid #06b05b;
+    text-align: center;
+    border-radius: 35px;
+    padding: 12px 25px;
+    margin-right: 15px;
+    -webkit-appearance: none;
+}
+
+.recipe-links a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.main-img{
+    width: 100%;
+    height: auto;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+}
+
+.main-text{
+    margin-left: 50px;
+}
+
+.container-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center center;
+}
+
+/** pseudo elements **/
+
+button:hover{
+    background: #ffffff;
+}
+
+button a:hover{
+    color: #06b05b;
+}
+
+
